@@ -1,11 +1,11 @@
-/* Custom properties */
+/* CUSTOM PROPERTIES */
 :root {
   --clr-main: black;
   --clr-white: #f4f6ff;
 }
-/* ----------------------- */
+/* ----------------- */
 
-/* Navbar container */
+/* NAVBAR CONTAINER */
 .navbarItems {
   background: var(--clr-main);
   height: 80px;
@@ -18,7 +18,7 @@
   margin-top: -8px;
 }
 
-/* Navbar logo */
+/* NAVBAR LOGO */
 .navbar-logo {
   justify-self: start;
   margin-left: 20px;
@@ -26,7 +26,7 @@
   font-size: 1.1em;
 }
 
-/* Grid container for navbar */
+/* GRID CONTAINER FOR NAVBAR */
 .nav-menu {
   display: grid;
   grid-template-columns: repeat(5, auto);
@@ -38,14 +38,14 @@
   margin-right: 2rem;
 }
 
-/* Styling for navbar links */
+/* STYLING FOR NAVBAR LINKS */
 .nav-links {
   color: var(--clr-white);
   text-decoration: none;
   padding: 0.5rem 1rem;
 }
 
-/* underline effect (links) */
+/* UNDERLINE (LINKS) */
 .underline::after {
   content: "";
   display: block;
@@ -55,7 +55,7 @@
   transition: width 0.4s;
 }
 
-/* underline effect (links) */
+/* UNDERLINE EFFECT (LINKS) */
 .underline:hover::after {
   width: 100%;
   transition: width 0.3s;
