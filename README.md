@@ -11,7 +11,7 @@ https://api.spacex.land/graphql/<br>
 ## Hva jeg lærte<br>
 
 Dette er mitt første prosjekt hvor jeg benytter GraphQL, som er et spørrespråk for å hente ut og vise data fra et API.<br>
-Formålet med denne siden er å vise min kompetanse innen react og graphql. Jeg ønsket en side som presenterer informasjon <br>
+Formålet med denne siden er å vise min kompetanse innen react og graphql. Jeg ønsket en side som presenterer<br>informasjon 
 på en interaktiv måte. For å gjøre dette har jeg benyttet: <br>
 
 * react-CountUp <br>
