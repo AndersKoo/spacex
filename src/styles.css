@@ -1,0 +1,265 @@
+/* TYPOGRAPHY STARTING */
+@font-face {
+  font-family: "D-DIN Condensed";
+  font-style: normal;
+  font-weight: 400;
+  src: local("D-DIN Condensed"),
+    url("https://fonts.cdnfonts.com/s/23112/D-DINCondensed.woff") format("woff");
+}
+
+@font-face {
+  font-family: "D-DIN Exp";
+  font-style: normal;
+  font-weight: 700;
+  src: local("D-DIN Exp"),
+    url("https://fonts.cdnfonts.com/s/23112/D-DINExp-Bold.woff") format("woff");
+}
+
+/* TYPOGRAPHY ENDING */
+
+/* CUSTOM PROPERTIES STARTING */
+:root {
+  --big-rocket-font: "D-DIN Exp";
+  --main-font-size: 23px;
+  --bigger-font-size: 2em;
+  --biggest-font-size: 6em;
+  --falcon-rocket-size: 1.45em;
+  --clr-black: black;
+  --clr-white: white;
+}
+
+/* CUSTOM PROPERTIES ENDING */
+
+.App {
+  font-family: "D-DIN Condensed";
+  text-align: center;
+}
+
+.html {
+  background: var(--clr-black);
+}
+
+.container {
+  background: var(--clr-black);
+  position: absolute;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+  margin-left: -8px;
+  margin-right: -8px;
+  margin-top: -17px;
+}
+
+.logo {
+  width: 230px;
+  margin-left: 20px;
+}
+
+.rocket_name {
+  margin-top: 1em;
+  font-family: var(--big-rocket-font);
+  font-size: var(--biggest-font-size);
+}
+
+.description {
+  font-size: var(--bigger-font-size);
+  width: 30em;
+}
+
+.description__info {
+  list-style-type: none;
+  margin-top: 10em;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.56em;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.main__info {
+  display: inline-block;
+  color: var(--clr-white);
+  background: var(--clr-black);
+  width: 100vw;
+}
+.main__info h3 {
+  color: var(--clr-white);
+}
+
+.firststage__details {
+  display: flex;
+  justify-content: space-evenly;
+  color: var(--clr-white);
+  background: var(--clr-black);
+  margin-left: -8px;
+  margin-right: -8px;
+  padding-left: 15px;
+  margin-top: -1em;
+  font-size: var(--bigger-font-size);
+}
+
+.main h2 {
+  position: absolute;
+  top: 50%;
+}
+.title {
+  background: var(--clr-black);
+  color: var(--clr-white);
+  margin-top: 0px;
+  margin-bottom: -1px;
+  padding: 73px;
+  margin-left: -8px;
+  margin-right: -8px;
+  font-size: var(--bigger-font-size);
+}
+
+.adjuster {
+  margin-left: 3em;
+}
+
+/* TABLES STARTING */
+#info {
+  border-collapse: collapse;
+  height: 6em;
+  display: flex;
+  width: 100vw;
+  display: flex;
+  margin-top: 28px;
+  margin: -18px;
+  margin-left: -8px;
+  padding: 0px;
+  background-color: var(--clr-black);
+
+  font-size: var(--main-font-size) !important;
+}
+
+#engine__table {
+  border-collapse: collapse;
+  height: 6em;
+  display: flex;
+  width: 100vw;
+  display: flex;
+  margin-top: 28px;
+  margin: -27px;
+  padding: 0px;
+  background-color: transparent;
+  font-size: var(--main-font-size) !important;
+}
+
+#info td,
+#info th {
+  padding: 8px;
+  width: 100vw;
+  border: none;
+  color: var(--clr-white);
+}
+
+#engine__table td,
+#engine__table th {
+  padding: 8px;
+  width: 100vw;
+  border: none;
+  color: var(--clr-white);
+}
+
+#info th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  color: var(--clr-white);
+  border: none;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+/* TABLES ENDING */
+
+.engine__table {
+  margin-top: 12em !important;
+  justify-content: center;
+}
+
+.falcon__description {
+  margin-top: 14em;
+  margin-left: 21em;
+  font-size: var(--falcon-rocket-size);
+  position: absolute;
+}
+
+.falconImage ul li {
+  list-style-type: none;
+}
+
+.engine {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* BACKGROUND IMAGES STARTING */
+.backgroundImage {
+  background: url("https://images.axios.com/dYjWHrPmi47XHarBe9Mjl7SwC_s=/0x0:1920x1080/1920x1080/2019/05/16/1557973365613.jpg")
+      center / cover,
+    0 0 no-repeat,
+    radial-gradient(
+      ellipse at center,
+      rgba(0, 0, 0, 0.5) 10%,
+      rgba(0, 0, 0, 3) 90%
+    );
+  height: 100vh;
+  width: 100%;
+  padding-left: 16px;
+  margin-left: -8px;
+  background-blend-mode: multiply;
+  color: var(--clr-white);
+  margin-top: -21px;
+  box-shadow: 0 0 60px var(--clr-black) inset !important;
+}
+
+.falconImage {
+  background: url("https://www.spacex.com/static/images/falcon-9/desktop/WebsiteF9Fairings_Render_Desktop.webp")
+      center / cover,
+    0 0 no-repeat,
+    radial-gradient(
+      ellipse at center,
+      rgba(0, 0, 0, 0.5) 10%,
+      rgba(0, 0, 0, 3) 90%
+    );
+  height: 100vh;
+  width: 100%;
+  padding-left: 16px;
+  margin-left: -8px;
+  color: var(--clr-white);
+  margin-top: -21px;
+  box-shadow: 0 0 60px var(--clr-black) inset !important;
+}
+
+.engineImage {
+  background: url("https://www.teslarati.com/wp-content/uploads/2020/01/GPS-III-SV03-Falcon-9-B1060-processing-2019-SpaceX-octaweb-1-crop-3-1536x781.jpg")
+      center / cover,
+    0 0 no-repeat,
+    radial-gradient(
+      ellipse at center,
+      rgba(0, 0, 0, 0.5) 10%,
+      rgba(0, 0, 0, 3) 90%
+    );
+  height: 70vh;
+  width: 100%;
+  padding-left: 16px;
+  margin-left: -8px;
+  background-blend-mode: multiply;
+  color: var(--clr-white);
+  margin-top: -21px;
+  box-shadow: 0 0 6px var(--clr-black) inset !important;
+}
+
+/* BACKGROUND IMAGES ENDING */

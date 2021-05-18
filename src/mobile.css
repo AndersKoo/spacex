@@ -1,0 +1,55 @@
+/* RESPONSIVE DESIGN FOR MOBILE (360px -> 768px) STARTING */
+@media screen and (min-width: 360px) and (max-width: 768px) {
+  .navbarItems {
+    width: 770px;
+  }
+  .backgroundImage {
+    width: 754px;
+  }
+  .rocket_name {
+    font-size: 3em;
+  }
+  .description {
+    font-size: 1.5em;
+    width: 19em;
+  }
+  .description__info {
+    margin-top: 4em;
+  }
+  .title {
+    width: 624px;
+    margin-top: -2px;
+  }
+  .firststage__details {
+    width: 755px;
+  }
+  .engineImage {
+    margin-top: -6px;
+    width: 754px;
+  }
+  .engine__table {
+    margin-top: 7em !important;
+  }
+  #info {
+    width: 770px;
+  }
+  .falconImage {
+    width: 754px;
+  }
+  .falcon__description {
+    margin-top: 5em;
+    margin-left: 1em;
+    width: 14em;
+  }
+  footer {
+    width: 610px;
+    margin-bottom: -8px;
+    margin-top: -2px;
+  }
+  .socials ul {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+}
+/* RESPONSIVE DESIGN FOR MOBILE (360px -> 768px) ENDING */

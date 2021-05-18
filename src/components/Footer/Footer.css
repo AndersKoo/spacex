@@ -1,0 +1,47 @@
+/* CUSTOM PROPERTIES STARTING */
+:root {
+  --clr-black: black;
+  --clr-white: white;
+  --clr-footer: RGB(71, 48, 18);
+}
+/* CUSTOM PROPERTIES ENDING */
+
+footer {
+  background-color: var(--clr-black);
+  margin-left: -8px;
+  margin-right: -8px;
+  padding: 40px 80px;
+}
+
+footer p {
+  color: var(--clr-white);
+  text-align: center;
+  margin-top: 20px;
+}
+
+.socials li {
+  list-style-type: none;
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.socials li a {
+  color: var(--clr-white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  min-width: 40px;
+  height: 40px;
+}
+
+.socials li a:link,
+.socials li a:visited {
+  text-decoration: none;
+  transition: all 0.5s;
+}
+.socials li a:active,
+.socials li a:hover {
+  background-color: var(--clr-footer);
+  border-radius: 50%;
+}
